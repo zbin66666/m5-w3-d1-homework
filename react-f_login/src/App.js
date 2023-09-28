@@ -31,9 +31,9 @@ function App () {
             {!login &&
             <React.Fragment>
               <h3>Please Login Using One of the Following:</h3>
-              {/*Login Form*/ }
-              <LoginForm></LoginForm>
-              {/*FB login button*/ }
+              {/* login form  */ }
+              <LoginForm></LoginForm> 
+              {/* facebooklogin */}
               <FacebookLogin
                   appId="861507205482529"
                   autoLoad={false}
